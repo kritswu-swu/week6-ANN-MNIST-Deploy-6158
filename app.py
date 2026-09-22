@@ -26,4 +26,4 @@ def load_mnist_model(path):
 model = load_mnist_model(model_path)
 
 if model is None:
-    st.error(f
+    st.error(f"ไม่พบไฟล์โมเดล: {model_path}")
